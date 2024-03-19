@@ -12,14 +12,14 @@ wildcards_max_bfs_depth = 64
 
 
 def normalize_key(k):
-    k = k.replace('-', ' ')
-    words = k.split(' ')
-    words = [w[:1].upper() + w[1:].lower() for w in words]
-    k = ' '.join(words)
-    k = k.replace('3d', '3D')
-    k = k.replace('Sai', 'SAI')
-    k = k.replace('Mre', 'MRE')
-    k = k.replace('(s', '(S')
+    # k = k.replace('-', ' ')
+    # words = k.split(' ')
+    # words = [w[:1].upper() + w[1:].lower() for w in words]
+    # k = ' '.join(words)
+    # k = k.replace('3d', '3D')
+    # k = k.replace('Sai', 'SAI')
+    # k = k.replace('Mre', 'MRE')
+    # k = k.replace('(s', '(S')
     return k
 
 
